@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+import CusSwitch from './components/CusSwitch.vue'
 </script>
 
 <template>
+  <CusSwitch />
   <main class="flex justify-center items-center flex-col px-[20px] gap-4">
     <div class="text-xl text-sky-500">欢迎使用 random-number-system</div>
     <p class="text-gray-500 text-sm">
