@@ -7,6 +7,9 @@ import { ChatBubbleBottomCenterIcon } from '@heroicons/vue/24/outline'
 </script>
 
 <template>
+  <div>
+    <el-button type="primary">我是按钮哦</el-button>
+  </div>
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
